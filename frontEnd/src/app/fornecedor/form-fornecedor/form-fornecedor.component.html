@@ -1,0 +1,57 @@
+<div class="card p-3 mt-3">
+    <form class="row g-3 needs-validation" novalidate [formGroup]="form">
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">NOME DO FORNECEDOR</label>
+            <input type="text" class="form-control" id="nome" 
+            placeholder="Digite o nome" formControlName="nome">
+            <div class="invalid-feedback">
+                Informe o nome do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="nome" class="form-label">CNPJ</label>
+            <input type="text" class="form-control" id="nome" 
+            placeholder="Digite o cnpj" formControlName="cnpj">
+            <div class="invalid-feedback">
+                Informe o nome do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <label for="nome" class="form-label">IE</label>
+            <input type="text" class="form-control" id="nome" 
+            placeholder="Digite o IE-Incrição Estadual" formControlName="ie">
+            <div class="invalid-feedback">
+                Informe o IE do fornecedor!!!
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">ENDEREÇO</label>
+            <input type="text" class="form-control" id="nome" 
+            placeholder="Digite o endereço" formControlName="endereco">
+            <div class="invalid-feedback">
+                Informe o endereço do fornecedor!!!
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <label for="nome" class="form-label">EMAIL</label>
+            <input type="text" class="form-control" id="nome" 
+            placeholder="Digite o email" formControlName="email">
+            <div class="invalid-feedback">
+                Informe o email do fornecedor!!!
+            </div>
+        </div>
+
+            
+        
+
+
+
+
+        
+        <div class="col-12 d-flex justify-content-end">
+            <button class="btn btn-primary me-2" type="submit" (click)="Salvar()">Salvar</button>
+            <button class="btn btn-danger" type="submit" (click)="Cancelar()">Cancelar</button>
+        </div>
+    </form>
+</div>

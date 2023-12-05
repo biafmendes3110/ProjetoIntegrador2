@@ -1,0 +1,12 @@
+{
+    "empresa": [
+        {
+           "id": 1,
+           "nome": "Beatriz",
+           "cnpj": "292837362",
+           "endereco": "Padre Antonio Brunetti",
+           "socios": "Pedro",
+           "faturamento": 847747 
+        }
+    ]
+}
